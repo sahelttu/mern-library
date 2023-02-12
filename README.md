@@ -1,5 +1,5 @@
 # mern-library
-MERN stack of a library
+MERN stack application that lets the user add and remove books from a database.
 
 # How to run the Server
 To run the server, go to the server folder in cmd and enter:
