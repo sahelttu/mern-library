@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0p;
+}
+.table-books{
+  float: right;
+  margin-right: 200px;
+  margin-top: 150px;
+}
+td{
+  border: 1px solid #333;
+}
+.th-author{
+  width: 150px;
+}
+.th-description{
+  width: 300px;
+}
+.th-title{
+  width: 150px;
+}
+thead,
+tfoot{
+  background-color: #333;
+  color: #fff;
+}
+
+.createBook{
+  float:left;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+label, input {
+  display: block;
+
+}
+
+.inputDescription{
+  height: 100px;
+  width: 500px;
+}
+
+input{
+  padding: 10px;
+  width: 500px;
+  margin-bottom: 25px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/*.booklist{
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  /* background-color: lightblue;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  width: 600px;
+}*/
